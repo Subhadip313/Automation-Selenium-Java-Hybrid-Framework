@@ -2064,3 +2064,1445 @@ cache-control: no-cache
 2025-01-17 15:12:42 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
 2025-01-17 15:12:42 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2025-01-17 15:12:42 [main] DEBUG freemarker.cache - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3f91b517
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 22
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: java.nio.DirectByteBuffer.<init>(long,int)
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @17f6480
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2080374784 bytes (maybe)
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\subha\AppData\Local\Temp (java.io.tmpdir)
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-01-17 16:16:00 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2025-01-17 16:16:00 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2025-01-17 16:16:00 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-01-17 16:16:00 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2025-01-17 16:16:00 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-01-17 16:16:00 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2025-01-17 16:16:00 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2025-01-17 16:16:01 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 16532 (auto-detected)
+2025-01-17 16:16:01 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-01-17 16:16:01 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-01-17 16:16:01 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+2025-01-17 16:16:01 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-01-17 16:16:01 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 48:51:c5:ff:fe:a9:af:98 (auto-detected)
+2025-01-17 16:16:01 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2025-01-17 16:16:01 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2025-01-17 16:16:01 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3e0a253f
+2025-01-17 16:16:01 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener - Using new Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to '/session'
+2025-01-17 16:16:01 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2025-01-17 16:16:01 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2025-01-17 16:16:01 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2025-01-17 16:16:01 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2025-01-17 16:16:01 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2025-01-17 16:16:02 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-01-17 16:16:02 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 254
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 881
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:02 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:02 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener - Using new Channel '[id: 0x62e1094b, L:/127.0.0.1:53399 - R:localhost/127.0.0.1:53393]' for 'GET' to '/json/version'
+2025-01-17 16:16:02 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+host: localhost:53393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Length: 423
+Content-Type: application/json; charset=UTF-8
+
+2025-01-17 16:16:02 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:53393 for channel [id: 0x62e1094b, L:/127.0.0.1:53399 - R:localhost/127.0.0.1:53393]
+2025-01-17 16:16:02 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xa86f2b51bad23a4f
+2025-01-17 16:16:02 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener - Using new Channel '[id: 0x9da3e5f8, L:/127.0.0.1:53400 - R:localhost/127.0.0.1:53393]' for 'GET' to '/devtools/browser/d31e24ef-e8f7-44ac-9d34-3116e3295d59'
+2025-01-17 16:16:02 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.handler.WebSocketHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/d31e24ef-e8f7-44ac-9d34-3116e3295d59 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: OnYGQZmCsS07lePExproYA==
+sec-websocket-version: 13
+origin: http://localhost:53393
+host: localhost:53393
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: qWJ7quCQVReg6CwRof3gpHVZ06A=
+
+2025-01-17 16:16:02 [Forwarding get on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/url'
+2025-01-17 16:16:02 [Forwarding get on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/url'
+2025-01-17 16:16:02 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53393 : 1
+2025-01-17 16:16:03 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/url HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 68
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:03 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:03 [Forwarding maximizeCurrentWindow on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/window/maximize'
+2025-01-17 16:16:03 [Forwarding maximizeCurrentWindow on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/window/maximize'
+2025-01-17 16:16:03 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53393 : 1
+2025-01-17 16:16:03 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/window/maximize HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 51
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:03 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:03 [Forwarding setTimeout on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/timeouts'
+2025-01-17 16:16:03 [Forwarding setTimeout on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/timeouts'
+2025-01-17 16:16:03 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/timeouts HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 22
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:03 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:03 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:03 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:04 [Forwarding clickElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.30/click'
+2025-01-17 16:16:04 [Forwarding clickElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.30/click'
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.30/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:04 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:04 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 82
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:04 [Forwarding isElementDisplayed on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/execute/sync'
+2025-01-17 16:16:04 [Forwarding isElementDisplayed on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/execute/sync'
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/execute/sync HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 48845
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:04 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:04 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:04 [Forwarding clickElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.10/click'
+2025-01-17 16:16:04 [Forwarding clickElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.10/click'
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.10/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:04 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:04 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:04 [Forwarding sendKeysToElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.10/value'
+2025-01-17 16:16:04 [Forwarding sendKeysToElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.10/value'
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.10/value HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 379
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:04 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:04 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 54
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:04 [Forwarding clickElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.11/click'
+2025-01-17 16:16:04 [Forwarding clickElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.11/click'
+2025-01-17 16:16:05 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53393 : 1
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.11/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:05 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:05 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 54
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:05 [Forwarding sendKeysToElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.11/value'
+2025-01-17 16:16:05 [Forwarding sendKeysToElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.11/value'
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.11/value HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 199
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:05 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:05 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 72
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:05 [Forwarding clickElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.20/click'
+2025-01-17 16:16:05 [Forwarding clickElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.20/click'
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.9354108E679EDED14B542F1772D83850.e.20/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:05 [Forwarding refresh on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/refresh'
+2025-01-17 16:16:05 [Forwarding refresh on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/refresh'
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/refresh HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:05 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:05 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 70
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:05 [Forwarding clickElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.AAA3BBFE18568FDF6B76D1234B280E39.e.67/click'
+2025-01-17 16:16:05 [Forwarding clickElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.AAA3BBFE18568FDF6B76D1234B280E39.e.67/click'
+2025-01-17 16:16:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.AAA3BBFE18568FDF6B76D1234B280E39.e.67/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:06 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'POST' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:06 [Forwarding findElement on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for POST '/session/3d837c462d123412d00a1b4f370622ee/element'
+2025-01-17 16:16:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/3d837c462d123412d00a1b4f370622ee/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 107
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:06 [Forwarding getElementText on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'GET' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.AAA3BBFE18568FDF6B76D1234B280E39.e.69/text'
+2025-01-17 16:16:06 [Forwarding getElementText on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for GET '/session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.AAA3BBFE18568FDF6B76D1234B280E39.e.69/text'
+2025-01-17 16:16:06 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53393 : 1
+2025-01-17 16:16:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/3d837c462d123412d00a1b4f370622ee/element/f.0D9BA78623B43EDDF19B8C4C55DCB224.d.AAA3BBFE18568FDF6B76D1234B280E39.e.69/text HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 26
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:07 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53393 : 1
+2025-01-17 16:16:07 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:26660 : 1
+2025-01-17 16:16:08 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53393 : 1
+2025-01-17 16:16:08 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:26660 : 1
+2025-01-17 16:16:09 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53393 : 1
+2025-01-17 16:16:09 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:26660 : 1
+2025-01-17 16:16:10 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53393 : 1
+2025-01-17 16:16:10 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:26660 : 1
+2025-01-17 16:16:11 [main] INFO  test.java.e_commerce.testCases.ABCD_Hospital_Base - Performing an action.
+2025-01-17 16:16:11 [main] DEBUG test.java.e_commerce.testCases.ABCD_Hospital_Base - Debugging action details.
+2025-01-17 16:16:11 [main] ERROR test.java.e_commerce.testCases.ABCD_Hospital_Base - An error occurred.
+2025-01-17 16:16:11 [Forwarding close on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]' for 'DELETE' to 'http://localhost:26660/session/3d837c462d123412d00a1b4f370622ee/window'
+2025-01-17 16:16:11 [Forwarding close on session 3d837c462d123412d00a1b4f370622ee to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660] for DELETE '/session/3d837c462d123412d00a1b4f370622ee/window'
+2025-01-17 16:16:11 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.handler.HttpHandler - Unexpected I/O exception on channel [id: 0x62e1094b, L:/127.0.0.1:53399 - R:localhost/127.0.0.1:53393]
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-17 16:16:11 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Closing Channel [id: 0x62e1094b, L:/127.0.0.1:53399 - R:localhost/127.0.0.1:53393] 
+2025-01-17 16:16:11 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.handler.HttpHandler - Channel Closed: [id: 0x62e1094b, L:/127.0.0.1:53399 ! R:localhost/127.0.0.1:53393] with attribute DISCARD
+2025-01-17 16:16:11 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.handler.WebSocketHandler - Unexpected I/O exception on channel [id: 0x9da3e5f8, L:/127.0.0.1:53400 - R:localhost/127.0.0.1:53393]
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-17 16:16:11 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.handler.WebSocketHandler - Was unable to recover Future: NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@2ece9aaf,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@528219ca,
+	future=java.util.concurrent.CompletableFuture@37be004a[Completed normally],
+	uri=ws://localhost:53393/devtools/browser/d31e24ef-e8f7-44ac-9d34-3116e3295d59,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1737110771467}
+2025-01-17 16:16:11 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Closing Channel [id: 0x9da3e5f8, L:/127.0.0.1:53400 - R:localhost/127.0.0.1:53393] 
+2025-01-17 16:16:11 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-17 16:16:11 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Closing Channel [id: 0x9da3e5f8, L:/127.0.0.1:53400 ! R:localhost/127.0.0.1:53393] 
+2025-01-17 16:16:11 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.handler.WebSocketHandler - Channel Closed: [id: 0x9da3e5f8, L:/127.0.0.1:53400 ! R:localhost/127.0.0.1:53393] with attribute DISCARD
+2025-01-17 16:16:11 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/3d837c462d123412d00a1b4f370622ee/window HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:26660
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:16:11 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:26660 for channel [id: 0x2f7e8bc9, L:/127.0.0.1:53392 - R:localhost/127.0.0.1:26660]
+2025-01-17 16:16:11 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:11 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2025-01-17 16:16:11 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2025-01-17 16:16:11 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2025-01-17 16:16:11 [main] DEBUG freemarker.cache - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2025-01-17 16:16:11 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53393 : 1
+2025-01-17 16:16:11 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:26660 : 1
+2025-01-17 16:16:11 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0x62e1094b, L:/127.0.0.1:53399 ! R:localhost/127.0.0.1:53393] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2025-01-17 16:16:11 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0x62e1094b, L:/127.0.0.1:53399 ! R:localhost/127.0.0.1:53393]
+2025-01-17 16:16:11 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 1 connections out of 2 in 0 ms
+2025-01-17 16:16:11 [main] DEBUG freemarker.cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:11 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2025-01-17 16:16:11 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2025-01-17 16:16:11 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2025-01-17 16:16:11 [main] DEBUG freemarker.cache - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2025-01-17 16:16:12 [main] DEBUG freemarker.cache - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@479460a6
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 22
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: java.nio.DirectByteBuffer.<init>(long,int)
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @71be98f5
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2080374784 bytes (maybe)
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\subha\AppData\Local\Temp (java.io.tmpdir)
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-01-17 16:26:03 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2025-01-17 16:26:03 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2025-01-17 16:26:03 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-01-17 16:26:03 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2025-01-17 16:26:03 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-01-17 16:26:03 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2025-01-17 16:26:03 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2025-01-17 16:26:04 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 17224 (auto-detected)
+2025-01-17 16:26:04 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-01-17 16:26:04 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-01-17 16:26:04 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+2025-01-17 16:26:04 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-01-17 16:26:04 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 48:51:c5:ff:fe:a9:af:98 (auto-detected)
+2025-01-17 16:26:04 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2025-01-17 16:26:04 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2025-01-17 16:26:04 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@51c362e0
+2025-01-17 16:26:04 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener - Using new Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to '/session'
+2025-01-17 16:26:04 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2025-01-17 16:26:04 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2025-01-17 16:26:04 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2025-01-17 16:26:04 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2025-01-17 16:26:04 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2025-01-17 16:26:05 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2025-01-17 16:26:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 254
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 881
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:05 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:05 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener - Using new Channel '[id: 0x48959de6, L:/127.0.0.1:53523 - R:localhost/127.0.0.1:53517]' for 'GET' to '/json/version'
+2025-01-17 16:26:05 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+host: localhost:53517
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Length: 423
+Content-Type: application/json; charset=UTF-8
+
+2025-01-17 16:26:05 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:53517 for channel [id: 0x48959de6, L:/127.0.0.1:53523 - R:localhost/127.0.0.1:53517]
+2025-01-17 16:26:05 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xb76c90ca8cae65bd
+2025-01-17 16:26:05 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener - Using new Channel '[id: 0x94f1316c, L:/127.0.0.1:53524 - R:localhost/127.0.0.1:53517]' for 'GET' to '/devtools/browser/3942b2e3-1e62-419f-aff7-3f9ec009582e'
+2025-01-17 16:26:05 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.handler.WebSocketHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/3942b2e3-1e62-419f-aff7-3f9ec009582e HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: RJzvVhFcTAu4RsXdtAMG3Q==
+sec-websocket-version: 13
+origin: http://localhost:53517
+host: localhost:53517
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: yzCp0LtHeA/9OcxwAR7gnmcN/+Q=
+
+2025-01-17 16:26:05 [Forwarding get on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/url'
+2025-01-17 16:26:05 [Forwarding get on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/url'
+2025-01-17 16:26:05 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53517 : 1
+2025-01-17 16:26:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/url HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 68
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:06 [Forwarding maximizeCurrentWindow on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/window/maximize'
+2025-01-17 16:26:06 [Forwarding maximizeCurrentWindow on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/window/maximize'
+2025-01-17 16:26:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/window/maximize HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 51
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:06 [Forwarding setTimeout on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/timeouts'
+2025-01-17 16:26:06 [Forwarding setTimeout on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/timeouts'
+2025-01-17 16:26:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/timeouts HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 22
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:06 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:06 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:06 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:06 [Forwarding clickElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.29/click'
+2025-01-17 16:26:06 [Forwarding clickElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.29/click'
+2025-01-17 16:26:07 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53517 : 1
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.29/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:07 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:07 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 82
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:07 [Forwarding isElementDisplayed on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/execute/sync'
+2025-01-17 16:26:07 [Forwarding isElementDisplayed on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/execute/sync'
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/execute/sync HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 48845
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:07 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:07 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:07 [Forwarding clickElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.9/click'
+2025-01-17 16:26:07 [Forwarding clickElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.9/click'
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.9/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:07 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:07 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:07 [Forwarding sendKeysToElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.9/value'
+2025-01-17 16:26:07 [Forwarding sendKeysToElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.9/value'
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.9/value HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 378
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:07 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:07 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 54
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:07 [Forwarding clickElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.10/click'
+2025-01-17 16:26:07 [Forwarding clickElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.10/click'
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.10/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:07 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:07 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 54
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:07 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:07 [Forwarding sendKeysToElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.10/value'
+2025-01-17 16:26:07 [Forwarding sendKeysToElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.10/value'
+2025-01-17 16:26:08 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53517 : 1
+2025-01-17 16:26:08 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.10/value HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 199
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:08 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:08 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:08 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:08 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 72
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:08 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:08 [Forwarding clickElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.19/click'
+2025-01-17 16:26:08 [Forwarding clickElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.19/click'
+2025-01-17 16:26:08 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.A3924F743A9406D837B4824536BB36AA.e.19/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:08 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:08 [Forwarding refresh on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/refresh'
+2025-01-17 16:26:08 [Forwarding refresh on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/refresh'
+2025-01-17 16:26:08 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/refresh HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:08 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:08 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:08 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:08 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 70
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:08 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:08 [Forwarding clickElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.8382D5A8139A090FCE0ABCBE854D7D92.e.66/click'
+2025-01-17 16:26:08 [Forwarding clickElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.8382D5A8139A090FCE0ABCBE854D7D92.e.66/click'
+2025-01-17 16:26:09 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53517 : 1
+2025-01-17 16:26:09 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.8382D5A8139A090FCE0ABCBE854D7D92.e.66/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:09 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:09 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'POST' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:09 [Forwarding findElement on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for POST '/session/f38fa7c9b8cef08a25072eae2cf1af67/element'
+2025-01-17 16:26:09 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/f38fa7c9b8cef08a25072eae2cf1af67/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 107
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:09 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:09 [Forwarding getElementText on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'GET' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.8382D5A8139A090FCE0ABCBE854D7D92.e.68/text'
+2025-01-17 16:26:09 [Forwarding getElementText on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for GET '/session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.8382D5A8139A090FCE0ABCBE854D7D92.e.68/text'
+2025-01-17 16:26:09 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/f38fa7c9b8cef08a25072eae2cf1af67/element/f.37C48C7AAB226DDEBD9C53D034F99C00.d.8382D5A8139A090FCE0ABCBE854D7D92.e.68/text HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 26
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:09 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:10 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53517 : 1
+2025-01-17 16:26:10 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:11738 : 1
+2025-01-17 16:26:11 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53517 : 1
+2025-01-17 16:26:11 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:11738 : 1
+2025-01-17 16:26:12 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53517 : 1
+2025-01-17 16:26:12 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:11738 : 1
+2025-01-17 16:26:13 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53517 : 1
+2025-01-17 16:26:13 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:11738 : 1
+2025-01-17 16:26:14 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53517 : 1
+2025-01-17 16:26:14 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:11738 : 1
+2025-01-17 16:26:14 [main] INFO  test.java.e_commerce.testCases.ABCD_Hospital_Base - Performing an action.
+2025-01-17 16:26:14 [main] DEBUG test.java.e_commerce.testCases.ABCD_Hospital_Base - Debugging action details.
+2025-01-17 16:26:14 [main] ERROR test.java.e_commerce.testCases.ABCD_Hospital_Base - An error occurred.
+2025-01-17 16:26:14 [Forwarding close on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]' for 'DELETE' to 'http://localhost:11738/session/f38fa7c9b8cef08a25072eae2cf1af67/window'
+2025-01-17 16:26:14 [Forwarding close on session f38fa7c9b8cef08a25072eae2cf1af67 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738] for DELETE '/session/f38fa7c9b8cef08a25072eae2cf1af67/window'
+2025-01-17 16:26:15 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.handler.HttpHandler - Channel Closed: [id: 0x48959de6, L:/127.0.0.1:53523 ! R:localhost/127.0.0.1:53517] with attribute DISCARD
+2025-01-17 16:26:15 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.handler.WebSocketHandler - Channel Closed: [id: 0x94f1316c, L:/127.0.0.1:53524 ! R:localhost/127.0.0.1:53517] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@10fb83cd,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@534cd5d7,
+	future=java.util.concurrent.CompletableFuture@56ee0630[Completed normally],
+	uri=ws://localhost:53517/devtools/browser/3942b2e3-1e62-419f-aff7-3f9ec009582e,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1737111365616}
+2025-01-17 16:26:15 [AsyncHttpClient-1-4] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Closing Channel [id: 0x94f1316c, L:/127.0.0.1:53524 ! R:localhost/127.0.0.1:53517] 
+2025-01-17 16:26:15 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/f38fa7c9b8cef08a25072eae2cf1af67/window HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:11738
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2025-01-17 16:26:15 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:11738 for channel [id: 0x64c667a0, L:/127.0.0.1:53516 - R:localhost/127.0.0.1:11738]
+2025-01-17 16:26:15 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:15 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2025-01-17 16:26:15 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2025-01-17 16:26:15 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2025-01-17 16:26:15 [main] DEBUG freemarker.cache - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2025-01-17 16:26:15 [main] DEBUG freemarker.cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:15 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2025-01-17 16:26:15 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2025-01-17 16:26:15 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2025-01-17 16:26:15 [main] DEBUG freemarker.cache - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2025-01-17 16:26:15 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53517 : 1
+2025-01-17 16:26:15 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:11738 : 1
+2025-01-17 16:26:15 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0x48959de6, L:/127.0.0.1:53523 ! R:localhost/127.0.0.1:53517] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2025-01-17 16:26:15 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0x48959de6, L:/127.0.0.1:53523 ! R:localhost/127.0.0.1:53517]
+2025-01-17 16:26:15 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 1 connections out of 2 in 1 ms
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2025-01-17 16:26:16 [main] DEBUG freemarker.cache - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/subha/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
