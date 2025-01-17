@@ -1,4 +1,4 @@
-package test.java.e_commerce.testComponenets;
+package com.e_commerce.test.utils;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

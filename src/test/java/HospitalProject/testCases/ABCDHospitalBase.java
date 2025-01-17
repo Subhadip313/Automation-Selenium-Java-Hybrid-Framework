@@ -1,4 +1,4 @@
-package e_commerce.testCases;
+package HospitalProject.testCases;
 
 import java.time.Duration;
 
@@ -12,7 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 @Slf4j
-public class ABCD_Hospital_Base{
+public class ABCDHospitalBase {
 //http://localhost/ABCD%20Hospital/
 	public WebDriver driver;
 	

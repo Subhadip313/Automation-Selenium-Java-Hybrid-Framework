@@ -1,9 +1,10 @@
-package e_commerce.testCases;
+package HospitalProject.testCases;
 
-import e_commerce.testComponenets.BaseTest;
+
+import HospitalProject.testComponenets.BaseTest;
 import org.testng.annotations.Test;
 
-public class ABCD_Hospital_registerNewUser extends BaseTest {
+public class HospitalRegisterNewUser extends BaseTest {
 	
 	@Test
 	public void AbcdHospitalRegistration() throws InterruptedException{

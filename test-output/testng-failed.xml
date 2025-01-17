@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [FCOrderSuite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="e_commerce.testComponenets.ListenerClass"/>
+    <listener class-name="com.e_commerce.test.utils.ListenerClass"/>
   </listeners>
   <test name="ABCD_Hospital Login(failed)">
     <classes>
-      <class name="e_commerce.testCases.ABCD_Hospital_Base">
+      <class name="HospitalProject.testCases.ABCDHospitalBase">
         <methods>
           <include name="login"/>
         </methods>
-      </class> <!-- e_commerce.testCases.ABCD_Hospital_Base -->
+      </class> <!-- HospitalProject.testCases.ABCDHospitalBase -->
     </classes>
   </test> <!-- ABCD_Hospital Login(failed) -->
 </suite> <!-- Failed suite [FCOrderSuite] -->

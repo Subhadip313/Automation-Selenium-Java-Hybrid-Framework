@@ -5,26 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="684ae706-69e4-47ca-87f6-0ae3ff91117f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium_Automation_framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testComponenets/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/HospitalProjectData/localData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_Automation_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_Automation_framework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/reports/ExtentReportsTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reportsConfig/ExtentReportsTestNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/ABCD_Hospital_Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/ABCD_Hospital_Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/ABCD_Hospital_registerNewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/ABCD_Hospital_registerNewUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/ListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/ListenerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testReports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e_commerce/testReports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reports/ExtentReportsTestNG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/reports/ExtentReportsTestNG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testCases/ABCD_Hospital_Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testCases/ABCD_Hospital_registerNewUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testComponenets/BaseTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testComponenets/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testComponenets/ListenerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hospital/test/pageObjects/frontend/ABCD_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hospital/test/pageObjects/frontend/ABCD_LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reportsConfig/ExtentReportsTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reportsConfig/ExtentReportsTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/environment/properties/globalData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/environment/properties/globalData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/ABCD_Hospital_Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/ABCDHospitalBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/ABCD_Hospital_registerNewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/HospitalRegisterNewUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/SampleTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/SampleTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/ListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/ListenerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/Retry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testReports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testReports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testScreenshots/failedTests/FcOrderPlacement1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testScreenshots/failedTests/FcOrderPlacement1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testScreenshots/failedTests/FcOrderPlacement2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testScreenshots/failedTests/FcOrderPlacement2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testScreenshots/failedTests/login1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testScreenshots/failedTests/login1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hospital/test/pageObjects/frontend/ABCD_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hospital/test/pageObjects/frontend/ABCD_LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reportsConfig/ExtentReportsTestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reportsConfig/ExtentReportsTestNG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/environment/properties/globalData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/environment/properties/globalData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/e_commerce/testCases/ABCD_Hospital_Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/e_commerce/testCases/ABCD_Hospital_registerNewUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/e_commerce/testComponenets/BaseTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/e_commerce/testComponenets/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/e_commerce/testComponenets/ListenerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/e_commerce/testCases/SampleTestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/e_commerce/testCases/example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/e_commerce/testComponenets/Retry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/e_commerce/testComponenets/example2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/FCOrderSuite/ABCD_Hospital Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/FCOrderSuite/ABCD_Hospital Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/FCOrderSuite/ABCD_Hospital Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/FCOrderSuite/ABCD_Hospital Login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/FCOrderSuite/OrderSubmitTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/FCOrderSuite/OrderSubmitTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/FCOrderSuite/OrderSubmitTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/FCOrderSuite/OrderSubmitTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/FCOrderSuite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/FCOrderSuite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-e_commerce.testCases.ABCD_Hospital_Base.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-e_commerce.testCases.ABCD_Hospital_Base.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-e_commerce.testCases.ABCD_Hospital_registerNewUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-e_commerce.testCases.ABCD_Hospital_registerNewUser.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-e_commerce.testCases.AfaCustomerOrderPlace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-e_commerce.testCases.AfaCustomerOrderPlace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-e_commerce.testCases.AfaOrderProcessFromSAP.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-e_commerce.testCases.AfaOrderProcessFromSAP.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-e_commerce.testCases.SampleTestClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-e_commerce.testCases.SampleTestClass.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/FCOrderSuite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/FCOrderSuite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/FCOrderSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/FCOrderSuite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/FCOrderSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/FCOrderSuite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/FCOrderSuite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/FCOrderSuite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testSuitesRunners/ABCD_Hospital.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSuitesRunners/ABCD_Hospital.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSuitesRunners/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSuitesRunners/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +113,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.ABCD_Hospital_Base.executor": "Run",
     "TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml.executor": "Run",
+    "TestNG.HospitalRegisterNewUser.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -82,7 +131,7 @@
       <recent name="D:\2. Selenium Automation framework\Selenium_Automation_framework-main\Selenium_Automation_framework-main\src\main\java\com\reportsConfig" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml">
+  <component name="RunManager" selected="TestNG.HospitalRegisterNewUser">
     <configuration name="ABCD_Hospital_Base" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation_framework" />
       <extension name="coverage">
@@ -110,8 +159,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HospitalRegisterNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Automation_framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HospitalProject.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HospitalProject.testCases" />
+      <option name="MAIN_CLASS_NAME" value="HospitalProject.testCases.HospitalRegisterNewUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HospitalRegisterNewUser" />
         <item itemvalue="TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml" />
         <item itemvalue="TestNG.ABCD_Hospital_Base" />
       </list>

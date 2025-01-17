@@ -1,4 +1,4 @@
-package test.java.e_commerce.testCases;
+package HospitalProject.testCases;
 
 import java.time.Duration;
 import java.util.LinkedHashMap;
@@ -28,7 +28,7 @@ public class SampleTestClass {
 	
 	 @BeforeTest 
 	public void extentReport(){
-		String Path= System.getProperty("user.dir")+"\\src\\test\\java\\e_commerce\\testReports\\index.html";
+		String Path= System.getProperty("user.dir")+"\\src\\test\\java\\HospitalProject\\testReports\\index.html";
 		ExtentSparkReporter report = new ExtentSparkReporter(Path);
 		report.config().setDocumentTitle("E-Commerce Automation");
 		report.config().setReportName("Test Results");

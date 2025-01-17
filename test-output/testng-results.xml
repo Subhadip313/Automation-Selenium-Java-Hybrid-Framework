@@ -6,12 +6,12 @@
     <groups>
     </groups>
     <test started-at="2025-01-07T16:46:37Z" name="ABCD_Hospital Login" finished-at="2025-01-07T16:46:45Z" duration-ms="8014">
-      <class name="e_commerce.testCases.ABCD_Hospital_Base">
-        <test-method signature="login()[pri:0, instance:e_commerce.testCases.ABCD_Hospital_Base@7bba5817]" started-at="2025-01-07T22:16:37Z" name="login" finished-at="2025-01-07T22:16:45Z" duration-ms="7992" status="PASS">
+      <class name="HospitalProject.testCases.ABCDHospitalBase">
+        <test-method signature="login()[pri:0, instance:HospitalProject.testCases.ABCDHospitalBase@7bba5817]" started-at="2025-01-07T22:16:37Z" name="login" finished-at="2025-01-07T22:16:45Z" duration-ms="7992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-      </class> <!-- e_commerce.testCases.ABCD_Hospital_Base -->
+      </class> <!-- HospitalProject.testCases.ABCDHospitalBase -->
     </test> <!-- ABCD_Hospital Login -->
   </suite> <!-- FCOrderSuite -->
 </testng-results>

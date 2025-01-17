@@ -1,4 +1,4 @@
-package e_commerce.testComponenets;
+package com.e_commerce.test.utils;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-public class ListenerClass extends BaseTest implements ITestListener {
+public class ListenerClass extends BaseClass implements ITestListener {
 	int index=1;
 	ExtentReports extent = ExtentReportsTestNG.getReportObject();
 	ExtentTest test; 	

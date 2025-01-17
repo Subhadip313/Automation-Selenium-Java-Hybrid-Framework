@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="e_commerce.testCases.AfaCustomerOrderPlace">
+      <class name="HospitalProject.testCases.AfaCustomerOrderPlace">
         <methods>
           <include name="FcOrderPlacement" invocation-numbers="0 1"/>
           <include name="driverClose"/>
           <include name="AfaLoginURL"/>
         </methods>
-      </class> <!-- e_commerce.testCases.AfaCustomerOrderPlace -->
+      </class> <!-- HospitalProject.testCases.AfaCustomerOrderPlace -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
