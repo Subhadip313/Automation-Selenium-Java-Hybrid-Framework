@@ -3,4 +3,5 @@
 /workspace.xml
 /target/
 /logs/
-test
+logs/application.log
+src/test/java/e_commerce/testReports/index.html
