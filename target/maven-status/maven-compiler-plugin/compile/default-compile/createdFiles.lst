@@ -1,0 +1,13 @@
+test\java\e_commerce\testComponenets\example2.class
+com\hospital\test\pageObjects\frontend\ABCD_LandingPage.class
+e_commerce\testComponenets\BaseTest.class
+test\java\e_commerce\testComponenets\Retry.class
+e_commerce\testComponenets\BaseTest$1.class
+e_commerce\testComponenets\ListenerClass.class
+e_commerce\testCases\ABCD_Hospital_registerNewUser.class
+test\java\e_commerce\testCases\SampleTestClass.class
+e_commerce\testCases\ABCD_Hospital_Base.class
+test\java\e_commerce\testCases\example.class
+com\e_commerce\test\utils\GeneralPageActionUtils.class
+com\e_commerce\test\utils\WebDriverWait.class
+com\reportsConfig\ExtentReportsTestNG.class

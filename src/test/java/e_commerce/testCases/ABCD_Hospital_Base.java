@@ -1,4 +1,4 @@
-package test.java.e_commerce.testCases;
+package e_commerce.testCases;
 
 import java.time.Duration;
 

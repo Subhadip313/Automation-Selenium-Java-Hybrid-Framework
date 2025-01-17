@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="684ae706-69e4-47ca-87f6-0ae3ff91117f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium_Automation_framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/reports/ExtentReportsTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reportsConfig/ExtentReportsTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/ABCD_Hospital_Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/ABCD_Hospital_Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/ABCD_Hospital_registerNewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e_commerce/testCases/ABCD_Hospital_registerNewUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/ListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e_commerce/testComponenets/ListenerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e_commerce/testReports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e_commerce/testReports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reports/ExtentReportsTestNG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reports/ExtentReportsTestNG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testCases/ABCD_Hospital_Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testCases/ABCD_Hospital_registerNewUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testComponenets/BaseTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testComponenets/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testComponenets/ListenerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSuitesRunners/ABCD_Hospital.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSuitesRunners/ABCD_Hospital.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2rf6ONWo7bL1C2XnfEL1RKyVrnz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.Selenium_Automation_framework [clean].executor": "Run",
+    "Maven.Selenium_Automation_framework [compile].executor": "Run",
+    "Maven.Selenium_Automation_framework [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ABCD_Hospital_Base.executor": "Run",
+    "TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main",
+    "settings.editor.selected.configurable": "preferences.editor"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2. Selenium Automation framework\Selenium_Automation_framework-main\Selenium_Automation_framework-main\src\main\java\com\reportsConfig" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml">
+    <configuration name="ABCD_Hospital_Base" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Automation_framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.e_commerce.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.e_commerce.testCases" />
+      <option name="MAIN_CLASS_NAME" value="test.java.e_commerce.testCases.ABCD_Hospital_Base" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Automation_framework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuitesRunners/ABCD_Hospital.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml" />
+        <item itemvalue="TestNG.ABCD_Hospital_Base" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="684ae706-69e4-47ca-87f6-0ae3ff91117f" name="Changes" comment="" />
+      <created>1736937749020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736937749020</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

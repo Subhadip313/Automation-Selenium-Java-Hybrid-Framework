@@ -1,4 +1,4 @@
-package test.java.e_commerce.testComponenets;
+package e_commerce.testComponenets;
 
 import java.io.File;
 import java.io.FileInputStream;

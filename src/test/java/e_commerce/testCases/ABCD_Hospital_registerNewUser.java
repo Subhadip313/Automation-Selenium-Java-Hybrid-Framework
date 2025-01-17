@@ -1,7 +1,7 @@
-package test.java.e_commerce.testCases;
+package e_commerce.testCases;
 
+import e_commerce.testComponenets.BaseTest;
 import org.testng.annotations.Test;
-import test.java.e_commerce.testComponenets.BaseTest;
 
 public class ABCD_Hospital_registerNewUser extends BaseTest {
 	
