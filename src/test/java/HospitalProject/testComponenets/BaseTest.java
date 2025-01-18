@@ -7,12 +7,14 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Properties;
 
 @Slf4j
 public class BaseTest {
     protected static WebDriver driver;
-    public ABCD_LandingPage ABCD_LandingPage;
+    public static ABCD_LandingPage ABCD_LandingPage;
 
     @BeforeMethod(alwaysRun = true)
     public ABCD_LandingPage goToWebpage() throws IOException {
@@ -27,5 +29,12 @@ public class BaseTest {
     public static void driverClose() {
         log.info("Closing the Browser");
         driver.close();
+    }
+    public static String getProperty(String key) throws IOException {
+        String propFile = BaseClass.getConfigProperty("propFileName");
+        Properties prop = new Properties();
+        FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/HospitalProjectData/"+propFile+".properties");
+        prop.load(fis);
+        return prop.getProperty(key);
     }
 }

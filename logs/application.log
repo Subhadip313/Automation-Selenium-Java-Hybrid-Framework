@@ -54,3 +54,266 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 04:20:12 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 04:20:12 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 04:20:18 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - The Model has opened
+2025-01-18 04:20:18 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Register Now
+2025-01-18 04:20:18 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 04:20:18 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 05:04:28 [main] INFO  HospitalProject.testCases.ABCDHospitalBase - Performing an action.
+2025-01-18 05:04:28 [main] ERROR HospitalProject.testCases.ABCDHospitalBase - An error occurred.
+2025-01-18 05:04:29 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 05:04:29 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 05:04:33 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 05:04:33 [AsyncHttpClient-1-7] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 05:06:37 [main] INFO  HospitalProject.testCases.ABCDHospitalBase - Performing an action.
+2025-01-18 05:06:37 [main] ERROR HospitalProject.testCases.ABCDHospitalBase - An error occurred.
+2025-01-18 05:06:38 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 05:06:38 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 05:06:42 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - The Model has opened
+2025-01-18 05:06:42 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Register Now
+2025-01-18 05:06:44 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Sign in Confirmed!!! Hello! Sudip Dutta, Please check out the below video to know more about us or go to the Home page by clicking the Home button on the to right corner of the page.
+2025-01-18 05:06:44 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 05:06:44 [AsyncHttpClient-1-7] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 05:36:10 [main] INFO  HospitalProject.testCases.ABCDHospitalBase - Performing an action.
+2025-01-18 05:36:10 [main] ERROR HospitalProject.testCases.ABCDHospitalBase - An error occurred.
+2025-01-18 05:36:10 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 05:36:11 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 05:36:11 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 05:36:15 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - The Model has opened
+2025-01-18 05:36:15 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Register Now
+2025-01-18 05:36:16 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Sign in Confirmed!!! Hello! Sudip Dutta, Please check out the below video to know more about us or go to the Home page by clicking the Home button on the to right corner of the page.
+2025-01-18 05:36:17 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 05:43:02 [main] INFO  HospitalProject.testCases.ABCDHospitalBase - Performing an action.
+2025-01-18 05:43:02 [main] ERROR HospitalProject.testCases.ABCDHospitalBase - An error occurred.
+2025-01-18 05:43:02 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 05:43:03 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 05:43:03 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 05:43:07 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - The Model has opened
+2025-01-18 05:43:07 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Register Now
+2025-01-18 05:43:09 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Sign in Confirmed!!! Hello! Rajesh Dutta, Please check out the below video to know more about us or go to the Home page by clicking the Home button on the to right corner of the page.
+2025-01-18 05:43:09 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 05:53:22 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 05:53:22 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 05:53:27 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - The Model has opened
+2025-01-18 05:53:27 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Register Now
+2025-01-18 05:53:28 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Sign in Confirmed!!! Hello! Rajesh Dutta, Please check out the below video to know more about us or go to the Home page by clicking the Home button on the to right corner of the page.
+2025-01-18 05:53:29 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 06:15:16 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 06:15:16 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 06:15:23 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 06:15:23 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 06:20:36 [main] INFO  HospitalProject.testCases.ABCDHospitalBase - Performing an action.
+2025-01-18 06:20:36 [main] ERROR HospitalProject.testCases.ABCDHospitalBase - An error occurred.
+2025-01-18 06:20:36 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 06:20:36 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 06:20:36 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 06:20:41 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - The Model has opened
+2025-01-18 06:20:41 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Register Now
+2025-01-18 06:20:42 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Sign in Confirmed!!! Hello! Sudip Dutta, Please check out the below video to know more about us or go to the Home page by clicking the Home button on the to right corner of the page.
+2025-01-18 06:20:43 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 06:20:43 [AsyncHttpClient-1-7] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 06:20:44 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 06:20:44 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 06:20:48 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 06:20:48 [AsyncHttpClient-1-2] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 06:23:24 [main] INFO  HospitalProject.testCases.ABCDHospitalBase - Performing an action.
+2025-01-18 06:23:24 [main] ERROR HospitalProject.testCases.ABCDHospitalBase - An error occurred.
+2025-01-18 06:23:24 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 06:23:24 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 06:23:29 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - The Model has opened
+2025-01-18 06:23:29 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Register Now
+2025-01-18 06:23:30 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Sign in Confirmed!!! Hello! Sudip Dutta, Please check out the below video to know more about us or go to the Home page by clicking the Home button on the to right corner of the page.
+2025-01-18 06:23:31 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 06:23:31 [AsyncHttpClient-1-7] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 06:23:31 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 06:23:31 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 06:24:06 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 06:25:10 [main] INFO  HospitalProject.testCases.ABCDHospitalBase - Performing an action.
+2025-01-18 06:25:10 [main] ERROR HospitalProject.testCases.ABCDHospitalBase - An error occurred.
+2025-01-18 06:25:10 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-18 06:25:11 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 06:25:11 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 06:25:16 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - The Model has opened
+2025-01-18 06:25:16 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Register Now
+2025-01-18 06:25:17 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Sign in Confirmed!!! Hello! Sudip Dutta, Please check out the below video to know more about us or go to the Home page by clicking the Home button on the to right corner of the page.
+2025-01-18 06:25:18 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser
+2025-01-18 06:25:18 [main] INFO  HospitalProject.testComponenets.BaseTest - Opening the Website!!!!
+2025-01-18 06:25:18 [main] INFO  HospitalProject.testComponenets.BaseTest - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-01-18 06:25:23 [main] INFO  HospitalProject.testComponenets.BaseTest - Closing the Browser

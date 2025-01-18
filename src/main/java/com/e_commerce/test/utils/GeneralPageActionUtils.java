@@ -43,6 +43,18 @@ public class GeneralPageActionUtils {
 		JavascriptExecutor  js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView();", element);
 	}
+	public static void refreshThePage(){
+		driver.navigate().refresh();
+	}
+	public void clearAndKeyIn(WebElement element, String key){
+		waitForTheElementWebElement(element);
+		element.clear();
+		element.sendKeys(key);
+	}
+	public void elementClick(WebElement element){
+		waitFortheElementToBeClickable(element);
+		element.click();
+	}
 	
 
 }

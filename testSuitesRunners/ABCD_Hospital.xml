@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FCOrderSuite">
+<suite name="HospitalProjectSuite">
 
 	<listeners>
 	<listener class-name="com.e_commerce.test.utils.ListenerClass"   />
@@ -8,11 +8,17 @@
 
   <test name="ABCD_Hospital Login">
     <classes>
-      <class name="HospitalProject.testCases.ABCDHospitalBase">
+      <class name="HospitalProject.testCases.ABCDHospitalBase" >
       <methods>
       <include name="login" />
       </methods>
       </class>
     </classes>
   </test> <!-- Test -->
+    <test name="ABCD_Hospital New User Registration">
+        <classes>
+            <class name="HospitalProject.testCases.HospitalRegisterNewUser" />
+            <class name="HospitalProject.testCases.HospitalDoctorAvailCheck" />
+        </classes>
+    </test> <!-- Test -->
 </suite> <!-- Suite -->
