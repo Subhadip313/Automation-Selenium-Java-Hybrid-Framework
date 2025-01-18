@@ -11,6 +11,7 @@ import com.e_commerce.test.utils.GeneralPageActionUtils;
 @Slf4j
 public class ABCD_LandingPage extends GeneralPageActionUtils {
     WebDriver driver;
+    public static ABCD_AppointmentPage ABCD_AppointmentPage;
 
     public ABCD_LandingPage(WebDriver driver) {
         super(driver);
@@ -34,7 +35,7 @@ public class ABCD_LandingPage extends GeneralPageActionUtils {
     @FindBy(css = "input#login_email") WebElement loginEmail;
     @FindBy(css = "input#login_psw") WebElement loginPSW;
     @FindBy(xpath = "//input[@value='Sign In']") WebElement signInBTN;
-
+    @FindBy(xpath = "(//*[contains(text(),'Appointment')])[1]") WebElement appointmentBTN;
 
     public void logintoWeb(String email, String psw){
         waitForPageToLoad();
@@ -88,5 +89,12 @@ public class ABCD_LandingPage extends GeneralPageActionUtils {
     public boolean checkIfHomeBTNthere(){
         waitForPageToLoad();
         return homeBTN.isDisplayed();
+    }
+    public ABCD_AppointmentPage goToAppointmentPage(){
+        waitForPageToLoad();
+        refreshThePage();
+        elementClick(appointmentBTN);
+        ABCD_AppointmentPage = new ABCD_AppointmentPage(driver);
+        return ABCD_AppointmentPage;
     }
 }

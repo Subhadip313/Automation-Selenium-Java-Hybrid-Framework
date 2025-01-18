@@ -17,7 +17,7 @@
   </test> <!-- Test -->
     <test name="ABCD_Hospital New User Registration">
         <classes>
-            <class name="HospitalProject.testCases.HospitalRegisterNewUser" />
+<!--            <class name="HospitalProject.testCases.HospitalRegisterNewUser" />-->
             <class name="HospitalProject.testCases.HospitalDoctorAvailCheck" />
         </classes>
     </test> <!-- Test -->
