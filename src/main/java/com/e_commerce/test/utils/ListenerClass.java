@@ -12,7 +12,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-public class ListenerClass extends BaseClass implements ITestListener {
+public class ListenerClass extends Config implements ITestListener {
 	int index=1;
 	ExtentReports extent = ExtentReportsTestNG.getReportObject();
 	ExtentTest test; 	

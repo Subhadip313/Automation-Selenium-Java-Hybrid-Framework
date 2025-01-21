@@ -1,6 +1,6 @@
 package com.hospital.test.pageObjects.frontend;
 
-import com.e_commerce.test.utils.GeneralPageActionUtils;
+import com.e_commerce.test.utils.BaseClass;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 @Slf4j
-public class ABCD_AppointmentPage  extends GeneralPageActionUtils {
+public class ABCD_AppointmentPage  extends BaseClass {
     WebDriver driver;
 
     public ABCD_AppointmentPage(WebDriver driver) {

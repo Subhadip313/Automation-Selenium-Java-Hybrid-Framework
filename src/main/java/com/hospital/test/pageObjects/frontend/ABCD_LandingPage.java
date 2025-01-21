@@ -6,10 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.e_commerce.test.utils.GeneralPageActionUtils;
+import com.e_commerce.test.utils.BaseClass;
 
 @Slf4j
-public class ABCD_LandingPage extends GeneralPageActionUtils {
+public class ABCD_LandingPage extends BaseClass {
     WebDriver driver;
     public static ABCD_AppointmentPage ABCD_AppointmentPage;
 
