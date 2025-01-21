@@ -6,13 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="684ae706-69e4-47ca-87f6-0ae3ff91117f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/GeneralPageActionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/GeneralPageActionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hospital/test/pageObjects/frontend/ABCD_AppointmentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hospital/test/pageObjects/frontend/ABCD_AppointmentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hospital/test/pageObjects/frontend/ABCD_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hospital/test/pageObjects/frontend/ABCD_LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/HospitalDoctorAvailCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/HospitalDoctorAvailCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/WebDriverWait.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/reportsConfig/ExtentReportsTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/reportsConfig/ExtentReportsTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/environment/properties/globalData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/environment/properties/globalData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/ABCDHospitalBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/ABCDHospitalBaseOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testComponenets/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testComponenets/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testReports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testReports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/HospitalProjectData/localData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/HospitalProjectData/localData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/BaseClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/BaseClass$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/WebDriverWait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/reportsConfig/ExtentReportsTestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/reportsConfig/ExtentReportsTestNG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/environment/properties/globalData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/environment/properties/globalData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HospitalProject/testCases/ABCDHospitalBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HospitalProject/testComponenets/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HospitalProject/testComponenets/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testSuitesRunners/ABCD_Hospital.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSuitesRunners/ABCD_Hospital.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +67,7 @@
     "TestNG.HospitalDoctorAvailCheck.UserDoctorCheck.executor": "Run",
     "TestNG.HospitalDoctorAvailCheck.executor": "Run",
     "TestNG.HospitalDoctorAvailCheck.newUserDoctorCheck.executor": "Run",
+    "TestNG.HospitalRegisterNewUser.AbcdHospitalRegistration.executor": "Run",
     "TestNG.HospitalRegisterNewUser.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -75,7 +86,7 @@
       <recent name="D:\2. Selenium Automation framework\Selenium_Automation_framework-main\Selenium_Automation_framework-main\src\main\java\com\reportsConfig" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HospitalDoctorAvailCheck">
+  <component name="RunManager" selected="TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml">
     <configuration name="D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation_framework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuitesRunners/ABCD_Hospital.xml" />
@@ -139,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HospitalRegisterNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HospitalRegisterNewUser.AbcdHospitalRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation_framework" />
       <extension name="coverage">
         <pattern>
@@ -149,7 +160,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="HospitalProject.testCases" />
       <option name="MAIN_CLASS_NAME" value="HospitalProject.testCases.HospitalRegisterNewUser" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="AbcdHospitalRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -158,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HospitalDoctorAvailCheck" />
-        <item itemvalue="TestNG.HospitalDoctorAvailCheck.UserDoctorCheck" />
         <item itemvalue="TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml" />
+        <item itemvalue="TestNG.HospitalRegisterNewUser.AbcdHospitalRegistration" />
+        <item itemvalue="TestNG.HospitalDoctorAvailCheck.UserDoctorCheck" />
+        <item itemvalue="TestNG.HospitalDoctorAvailCheck" />
         <item itemvalue="TestNG.HospitalDoctorAvailCheck.newUserDoctorCheck" />
-        <item itemvalue="TestNG.HospitalRegisterNewUser" />
       </list>
     </recent_temporary>
   </component>

@@ -8,7 +8,7 @@
 
   <test name="ABCD_Hospital Login">
     <classes>
-      <class name="HospitalProject.testCases.ABCDHospitalBase" >
+      <class name="HospitalProject.testCases.ABCDHospitalBaseOld" >
       <methods>
       <include name="login" />
       </methods>

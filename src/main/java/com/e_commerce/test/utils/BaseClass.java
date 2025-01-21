@@ -18,6 +18,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hospital.test.pageObjects.frontend.ABCD_LandingPage;
+import org.testng.annotations.BeforeMethod;
 
 public class BaseClass {
     protected static  WebDriver driver;

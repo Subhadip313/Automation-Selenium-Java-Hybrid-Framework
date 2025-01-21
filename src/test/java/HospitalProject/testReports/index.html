@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>E-Commerce Automation</title>
+<title>Hospital-Project Automation</title>
 <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Test Results</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jan 19, 2025 01:12:30 am</span></a>
+<a href="#"><span class="badge badge-primary">Jan 21, 2025 03:48:30 pm</span></a>
 </li>
 </ul>
 </div>
@@ -87,7 +87,7 @@
           <div class="test-detail">
             <p class="name">login</p>
             <p class="text-sm">
-              <span>1:12:30 am</span> / <span>00:00:10:345</span>
+              <span>3:48:31 pm</span> / <span>00:00:10:135</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -96,9 +96,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">login</h5>
-<span class='badge badge-success'>01.19.2025 1:12:30 am</span>
-<span class='badge badge-danger'>01.19.2025 1:12:40 am</span>
-<span class='badge badge-default'>00:00:10:345</span>
+<span class='badge badge-success'>01.21.2025 3:48:31 pm</span>
+<span class='badge badge-danger'>01.21.2025 3:48:41 pm</span>
+<span class='badge badge-default'>00:00:10:135</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -111,7 +111,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>1:12:40 am</td>
+        <td>3:48:41 pm</td>
         <td>
           The Test is Passed
         </td>
@@ -128,7 +128,7 @@
           <div class="test-detail">
             <p class="name">UserDoctorCheck</p>
             <p class="text-sm">
-              <span>1:12:45 am</span> / <span>00:00:03:415</span>
+              <span>3:48:44 pm</span> / <span>00:00:31:725</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -137,9 +137,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">UserDoctorCheck</h5>
-<span class='badge badge-success'>01.19.2025 1:12:45 am</span>
-<span class='badge badge-danger'>01.19.2025 1:12:49 am</span>
-<span class='badge badge-default'>00:00:03:415</span>
+<span class='badge badge-success'>01.21.2025 3:48:44 pm</span>
+<span class='badge badge-danger'>01.21.2025 3:49:16 pm</span>
+<span class='badge badge-default'>00:00:31:725</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -152,43 +152,26 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:12:49 am</td>
+        <td>3:49:16 pm</td>
         <td>
           The Test is Failed
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>1:12:49 am</td>
+        <td>3:49:16 pm</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="appointment.php">...</a> is not clickable at point (730, 121). Other element would receive the click: <h2 style="text-align:center; font-family: 'Times New Roman', Times, serif;">...</h2>
-  (Session info: MicrosoftEdge=132.0.2957.115)
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (436d0af26009925f85e2a17a0acdaeb1)] -> xpath: //a[@id='user_profile']] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [6ada5a2aa63060054cd215bb04089b9e, clickElement {id=f.EC313961A9065335F53EB6986ED72B7E.d.6A4664C287667AF9F1B0FFC0CA791FB1.e.91}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.115, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53371}, msedge: {msedgedriverVersion: 132.0.2957.115 (f14150e8a7c..., userDataDir: C:\Users\subha\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53371/devtoo..., se:cdpVersion: 132.0.2957.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (6ada5a2aa63060054cd215bb04089b9e)] -> xpath: (//*[contains(text(),'Appointment')])[1]]
-Session ID: 6ada5a2aa63060054cd215bb04089b9e
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at com.e_commerce.test.utils.GeneralPageActionUtils.elementClick(GeneralPageActionUtils.java:57)
-	at com.hospital.test.pageObjects.frontend.ABCD_LandingPage.goToAppointmentPage(ABCD_LandingPage.java:95)
-	at HospitalProject.testCases.HospitalDoctorAvailCheck.UserDoctorCheck(HospitalDoctorAvailCheck.java:25)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Users\subha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57998}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57998/devtoo..., se:cdpVersion: 132.0.6834.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 436d0af26009925f85e2a17a0acdaeb1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.e_commerce.test.utils.GeneralPageActionUtils.waitFortheElementToBeClickable(GeneralPageActionUtils.java:33)
+	at com.hospital.test.pageObjects.frontend.ABCD_LandingPage.validateUserDetails(ABCD_LandingPage.java:78)
+	at HospitalProject.testCases.HospitalDoctorAvailCheck.UserDoctorCheck(HospitalDoctorAvailCheck.java:24)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
@@ -242,12 +225,12 @@ Session ID: 6ada5a2aa63060054cd215bb04089b9e
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.ElementClickInterceptedException</p>
+<p class="name">org.openqa.selenium.TimeoutException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.ElementClickInterceptedException</h4>
+<h4>org.openqa.selenium.TimeoutException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -261,7 +244,7 @@ Session ID: 6ada5a2aa63060054cd215bb04089b9e
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>01:12:45 am</td>
+<td>15:48:44 pm</td>
 <td>
 <a href="#" class="linked" test-id='2' id='2'>UserDoctorCheck</a>
 </td>
@@ -283,13 +266,13 @@ Session ID: 6ada5a2aa63060054cd215bb04089b9e
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jan 19, 2025 01:12:30 am</h3>
+<h3>Jan 21, 2025 03:48:30 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jan 19, 2025 01:12:49 am</h3>
+<h3>Jan 21, 2025 03:49:16 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -359,7 +342,7 @@ Session ID: 6ada5a2aa63060054cd215bb04089b9e
 </div></div>
 <script>
 var timeline = {
-"login":10.345,"UserDoctorCheck":3.415
+"login":10.135,"UserDoctorCheck":31.725
 };
 </script>
 <div class="row">
