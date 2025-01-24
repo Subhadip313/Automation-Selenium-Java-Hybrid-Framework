@@ -13,12 +13,12 @@ public class HospitalRegisterNewUser extends BaseTest {
 	@Test
 	public static void AbcdHospitalRegistration() throws InterruptedException, IOException {
 		String userName;
-		ABCD_LandingPage.regiterNewUser(getProperty("fullName"),getProperty("email"),getProperty("psw"),getProperty("repPsw"));
+		ABCD_LandingPage.regiterNewUser(getDataProperty("fullName"),getDataProperty("email"),getDataProperty("psw"),getDataProperty("repPsw"));
 		if(ABCD_LandingPage.checkIfHomeBTNthere()){
 			ABCD_LandingPage.goToHomePage();
 		}
-		userName= ABCD_LandingPage.validateUserDetails();
-		Assert.assertEquals(userName,getProperty("fullName"));
+		userName= ABCD_LandingPage.getUserDetail();
+		Assert.assertEquals(userName,getDataProperty("fullName"));
 	}
 
 }

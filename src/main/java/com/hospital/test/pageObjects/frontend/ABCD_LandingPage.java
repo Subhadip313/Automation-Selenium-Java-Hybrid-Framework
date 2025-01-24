@@ -73,13 +73,22 @@ public class ABCD_LandingPage extends BaseClass {
         waitForTheElementWebElement(welcomeText);
         log.info("Sign in Confirmed!!! {}", welcomeText.getText());
     }
-    public String validateUserDetails(){
+    public String getUserDetail(){
         refreshThePage();
         waitFortheElementToBeClickable(userProfile);
         userProfile.click();
         waitForTheElementWebElement(userName);
         return userName.getText();
 
+    }
+    public boolean checkIfUserLoggedIn(String uName){
+        String userName = getUserDetail();
+        if(userName.equalsIgnoreCase(uName)){
+            return true;
+
+        }else {
+            return false;
+        }
     }
     public void goToHomePage(){
         waitForPageToLoad();

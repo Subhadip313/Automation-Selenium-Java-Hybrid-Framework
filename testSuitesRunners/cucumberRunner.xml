@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HospitalProjectSuite">
+
+    <listeners>
+        <listener class-name="com.e_commerce.test.utils.ListenerClass"   />
+    </listeners>
+
+    <test name="ABCD_Hospital">
+        <classes>
+            <class name="runner.CucumberRunner" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -13,15 +13,15 @@ public class HospitalDoctorAvailCheck extends BaseTest {
 public void UserDoctorCheck() throws IOException, InterruptedException {
     String userName;
     ABCD_AppointmentPage ABCD_AppointmentPage;
-    String email = getProperty("email");
-    String psw = getProperty("psw");
-    String actualName = getProperty("fullName");
-    String department = getProperty("dep");
-    String doctorName = getProperty("doctorName");
+    String email = getDataProperty("email");
+    String psw = getDataProperty("psw");
+    String actualName = getDataProperty("fullName");
+    String department = getDataProperty("dep");
+    String doctorName = getDataProperty("doctorName");
 
 
     ABCD_LandingPage.logintoWeb(email,psw);
-    userName = ABCD_LandingPage.validateUserDetails();
+    userName = ABCD_LandingPage.getUserDetail();
     Assert.assertEquals(userName,actualName);
 
     ABCD_AppointmentPage = ABCD_LandingPage.goToAppointmentPage();

@@ -5,16 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="684ae706-69e4-47ca-87f6-0ae3ff91117f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/StepDefinitions/loginOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testClasses/hospitalLandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/HospitalProjectFeatures/HospitalLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/HospitalProjectFeatures/HospitalNUR.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testSuitesRunners/cucumberRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/GeneralPageActionUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/ListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/e_commerce/test/utils/ListenerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hospital/test/pageObjects/frontend/ABCD_AppointmentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hospital/test/pageObjects/frontend/ABCD_AppointmentPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hospital/test/pageObjects/frontend/ABCD_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hospital/test/pageObjects/frontend/ABCD_LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/HospitalDoctorAvailCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/HospitalDoctorAvailCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/HospitalRegisterNewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testCases/HospitalRegisterNewUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testComponenets/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testComponenets/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testReports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testReports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testScreenshots/failedTests/login1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testScreenshots/failedTests/login1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Selenium_Automation_framework-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Selenium_Automation_framework-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/BaseClass$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/GeneralPageActionUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/ListenerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/e_commerce/test/utils/ListenerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hospital/test/pageObjects/frontend/ABCD_AppointmentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hospital/test/pageObjects/frontend/ABCD_AppointmentPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hospital/test/pageObjects/frontend/ABCD_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hospital/test/pageObjects/frontend/ABCD_LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/e_commerce/testCases/ABCD_Hospital_Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/e_commerce/testCases/ABCD_Hospital_registerNewUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/e_commerce/testComponenets/BaseTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/e_commerce/testComponenets/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/e_commerce/testComponenets/ListenerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testCases/SampleTestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testCases/example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testComponenets/Retry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/e_commerce/testComponenets/example2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-01-18T02-30-00_771.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-e_commerce.testComponenets.BaseTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/e_commerce.testComponenets.BaseTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HospitalProject/testCases/HospitalDoctorAvailCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HospitalProject/testCases/HospitalDoctorAvailCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HospitalProject/testCases/HospitalRegisterNewUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HospitalProject/testCases/HospitalRegisterNewUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/HospitalProject/testComponenets/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HospitalProject/testComponenets/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +87,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Scenario: Valid login to Hospital Management System.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Selenium_Automation_framework [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Selenium_Automation_framework [compile].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Selenium_Automation_framework [install].executor&quot;: &quot;Run&quot;,
@@ -56,11 +95,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TestNG.ABCD_Hospital_Base.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/cucumberRunner.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.HospitalDoctorAvailCheck.UserDoctorCheck.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.HospitalDoctorAvailCheck.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.HospitalDoctorAvailCheck.newUserDoctorCheck.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.HospitalRegisterNewUser.AbcdHospitalRegistration.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.HospitalRegisterNewUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNGCucumberRunner.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -78,7 +119,44 @@
       <recent name="D:\2. Selenium Automation framework\Selenium_Automation_framework-main\Selenium_Automation_framework-main\src\main\java\com\reportsConfig" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Valid login to Hospital Management System">
+    <configuration name="Scenario: Valid login to Hospital Management System" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/HospitalProjectFeatures/HospitalLogin.feature" />
+      <option name="GLUE" value="HospitalProject.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Selenium_Automation_framework" />
+      <option name="NAME_FILTER" value="^Valid login to Hospital Management System$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Valid login to Hospital Management System$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Valid login to Hospital Management System" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Automation_framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.CucumberRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation_framework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuitesRunners/ABCD_Hospital.xml" />
@@ -89,17 +167,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HospitalDoctorAvailCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/cucumberRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Automation_framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HospitalProject.testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HospitalProject.testCases" />
-      <option name="MAIN_CLASS_NAME" value="HospitalProject.testCases.HospitalDoctorAvailCheck" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuitesRunners/cucumberRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -124,49 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HospitalDoctorAvailCheck.newUserDoctorCheck" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Automation_framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HospitalProject.testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HospitalProject.testCases" />
-      <option name="MAIN_CLASS_NAME" value="HospitalProject.testCases.HospitalDoctorAvailCheck" />
-      <option name="METHOD_NAME" value="newUserDoctorCheck" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HospitalRegisterNewUser.AbcdHospitalRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Automation_framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HospitalProject.testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HospitalProject.testCases" />
-      <option name="MAIN_CLASS_NAME" value="HospitalProject.testCases.HospitalRegisterNewUser" />
-      <option name="METHOD_NAME" value="AbcdHospitalRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/cucumberRunner.xml" />
         <item itemvalue="TestNG.D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main/testSuitesRunners/ABCD_Hospital.xml" />
+        <item itemvalue="Cucumber Java.Scenario: Valid login to Hospital Management System" />
         <item itemvalue="TestNG.HospitalDoctorAvailCheck.UserDoctorCheck" />
-        <item itemvalue="TestNG.HospitalRegisterNewUser.AbcdHospitalRegistration" />
-        <item itemvalue="TestNG.HospitalDoctorAvailCheck" />
-        <item itemvalue="TestNG.HospitalDoctorAvailCheck.newUserDoctorCheck" />
       </list>
     </recent_temporary>
   </component>

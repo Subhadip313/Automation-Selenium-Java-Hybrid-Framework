@@ -5,8 +5,6 @@ import com.hospital.test.pageObjects.frontend.ABCD_LandingPage;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.File;
@@ -19,24 +17,23 @@ public class BaseTest {
     protected static WebDriver driver;
     public static ABCD_LandingPage ABCD_LandingPage;
 
-    @BeforeMethod(alwaysRun = true)
-    public ABCD_LandingPage goToWebpage() throws IOException {
-        log.info("====================================================================================");
-        log.info("*********************************Test Start*****************************************");
-        log.info("Opening the Website!!!!");
-        log.info("Webiste URL: "+ Config.getConfigProperty("URL"));
-        driver = Config.openURL();
+    //@BeforeMethod(alwaysRun = true)
+    public static ABCD_LandingPage goToWebpage(WebDriver driver) throws IOException {
+
+        BaseTest.driver = driver;
         ABCD_LandingPage = new ABCD_LandingPage(driver);
         return ABCD_LandingPage;
 
     }
-    @AfterMethod(alwaysRun = true)
+    //@AfterMethod(alwaysRun = true)
     public static void driverClose() {
-        log.info("*********************************Test End*****************************************");
+        log.info("After Hook triggered");
         log.info("Closing the Browser");
+        log.info("*********************************Test End*****************************************");
         driver.close();
+        driver.quit();
     }
-    public static String getProperty(String key) throws IOException {
+    public static String getDataProperty(String key) throws IOException {
         String propFile = Config.getConfigProperty("propFileName");
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/HospitalProjectData/"+propFile+".properties");
