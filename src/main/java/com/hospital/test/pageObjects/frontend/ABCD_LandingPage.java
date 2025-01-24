@@ -83,12 +83,7 @@ public class ABCD_LandingPage extends BaseClass {
     }
     public boolean checkIfUserLoggedIn(String uName){
         String userName = getUserDetail();
-        if(userName.equalsIgnoreCase(uName)){
-            return true;
-
-        }else {
-            return false;
-        }
+        return userName.equalsIgnoreCase(uName);
     }
     public void goToHomePage(){
         waitForPageToLoad();

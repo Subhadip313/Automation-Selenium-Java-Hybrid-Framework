@@ -1,8 +1,9 @@
 runner\CucumberRunner.class
-HospitalProject\testCases\HospitalRegisterNewUser.class
-HospitalProject\testCases\SampleTestClass.class
 hooks\hooks.class
 HospitalProject\testComponenets\BaseTest.class
-HospitalProject\testCases\ABCDHospitalBaseOld.class
-HospitalProject\testCases\HospitalDoctorAvailCheck.class
+HospitalProject\testCasesTDD\ABCDHospitalBaseOld.class
+HospitalProject\testCasesTDD\HospitalRegisterNewUser.class
+HospitalProject\testCasesTDD\HospitalDoctorAvailCheck.class
+HospitalProject\testCasesTDD\SampleTestClass.class
 HospitalProject\StepDefinitions\loginOP.class
+HospitalProject\testClasses\hospitalLandingPage.class

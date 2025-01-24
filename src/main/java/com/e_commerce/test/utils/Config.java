@@ -20,7 +20,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hospital.test.pageObjects.frontend.ABCD_LandingPage;
 
 public class Config {
-    protected static  WebDriver driver;
+    public static  WebDriver driver;
     public ABCD_LandingPage ABCD_LandingPage;
 
     public static String getConfigProperty(String key) throws IOException {
@@ -30,7 +30,7 @@ public class Config {
         return prop.getProperty(key);
     }
 
-    protected static WebDriver initializeDriver() throws IOException {
+    public static WebDriver initializeDriver() throws IOException {
         String browserName = getConfigProperty("browser");
 
         if (browserName.equalsIgnoreCase("chrome")) {

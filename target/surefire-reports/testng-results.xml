@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-24T17:20:06Z" name="Surefire suite" finished-at="2025-01-24T17:20:06Z" duration-ms="1">
+  <suite started-at="2025-01-24T19:06:25Z" name="Surefire suite" finished-at="2025-01-24T19:06:25Z" duration-ms="2">
     <groups>
     </groups>
-    <test started-at="2025-01-24T17:20:06Z" name="Surefire test" finished-at="2025-01-24T17:20:06Z" duration-ms="1">
+    <test started-at="2025-01-24T19:06:25Z" name="Surefire test" finished-at="2025-01-24T19:06:25Z" duration-ms="2">
       <class name="HospitalProject.testComponenets.BaseTest">
-        <test-method is-config="true" signature="deleteLogFile()[pri:0, instance:HospitalProject.testComponenets.BaseTest@6ef888f6]" started-at="2025-01-24T22:50:06Z" name="deleteLogFile" finished-at="2025-01-24T22:50:06Z" duration-ms="27" status="PASS">
+        <test-method is-config="true" signature="deleteLogFile()[pri:0, instance:HospitalProject.testComponenets.BaseTest@659a969b]" started-at="2025-01-25T00:36:24Z" name="deleteLogFile" finished-at="2025-01-25T00:36:25Z" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteLogFile -->

@@ -17,22 +17,17 @@ public class BaseTest {
     protected static WebDriver driver;
     public static ABCD_LandingPage ABCD_LandingPage;
 
-    //@BeforeMethod(alwaysRun = true)
-    public static ABCD_LandingPage goToWebpage(WebDriver driver) throws IOException {
+    static {
+        driver = hooks.hooks.driver;
+    }
 
-        BaseTest.driver = driver;
+    //@BeforeMethod(alwaysRun = true)
+    public static ABCD_LandingPage goToWebpage() throws IOException {
         ABCD_LandingPage = new ABCD_LandingPage(driver);
         return ABCD_LandingPage;
 
     }
-    //@AfterMethod(alwaysRun = true)
-    public static void driverClose() {
-        log.info("After Hook triggered");
-        log.info("Closing the Browser");
-        log.info("*********************************Test End*****************************************");
-        driver.close();
-        driver.quit();
-    }
+
     public static String getDataProperty(String key) throws IOException {
         String propFile = Config.getConfigProperty("propFileName");
         Properties prop = new Properties();

@@ -6,7 +6,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = "src/test/resources/HospitalProjectFeatures", // Path to feature files
         glue = {"HospitalProject.StepDefinitions",
-                "hooks"}, // Path to step definition files
+                "hooks",
+                "HospitalProject.testClassesBDD"}, // Path to step definition files
         plugin = { "pretty",
                 "html:target/cucumber-reports/cucumber.html",
                 "json:target/cucumber-reports/cucumber.json"

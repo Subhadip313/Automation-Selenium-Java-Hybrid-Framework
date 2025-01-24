@@ -8,7 +8,7 @@
 
   <test name="ABCD_Hospital Login">
     <classes>
-      <class name="HospitalProject.testCases.ABCDHospitalBaseOld" >
+      <class name="HospitalProject.testCasesTDD.ABCDHospitalBaseOld" >
       <methods>
       <include name="login" />
       </methods>
@@ -17,8 +17,8 @@
   </test> <!-- Test -->
     <test name="ABCD_Hospital New User Registration">
         <classes>
-<!--            <class name="HospitalProject.testCases.HospitalRegisterNewUser" />-->
-            <class name="HospitalProject.testCases.HospitalDoctorAvailCheck" />
+<!--            <class name="HospitalProject.testCasesTDDTDD.HospitalRegisterNewUser" />-->
+            <class name="HospitalProject.testCasesTDD.HospitalDoctorAvailCheck" />
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

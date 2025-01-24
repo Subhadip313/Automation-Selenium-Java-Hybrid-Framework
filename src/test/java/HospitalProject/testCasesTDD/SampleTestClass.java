@@ -1,4 +1,4 @@
-package HospitalProject.testCases;
+package HospitalProject.testCasesTDD;
 
 import java.time.Duration;
 import java.util.LinkedHashMap;

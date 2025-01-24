@@ -7,5 +7,5 @@ Feature: Login functionality in Hospital Management System
     When the user enters "<email>" and "<password>"
     Then the user "<username>" should be logged in
     Examples:
-      | email               | password | username    |
-      | sudip1959@gmail.com | 12345678 | Sudip  |
+      | email               | password | username |
+      | sudip1959@gmail.com | 12345678 | Sudip    |

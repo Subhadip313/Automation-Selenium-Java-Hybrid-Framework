@@ -1,18 +1,18 @@
-package HospitalProject.testCases;
+package HospitalProject.testCasesTDD;
 
-import HospitalProject.testComponenets.BaseTest;
 import com.hospital.test.pageObjects.frontend.ABCD_AppointmentPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class HospitalDoctorAvailCheck extends BaseTest {
-
+public class HospitalDoctorAvailCheck extends TDDBaseTest {
+    public static ABCD_AppointmentPage ABCD_AppointmentPage;
 @Test
 public void UserDoctorCheck() throws IOException, InterruptedException {
     String userName;
-    ABCD_AppointmentPage ABCD_AppointmentPage;
+
+
     String email = getDataProperty("email");
     String psw = getDataProperty("psw");
     String actualName = getDataProperty("fullName");

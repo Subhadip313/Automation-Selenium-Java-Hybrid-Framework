@@ -1,13 +1,12 @@
-package HospitalProject.testCases;
+package HospitalProject.testCasesTDD;
 
 
-import HospitalProject.testComponenets.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class HospitalRegisterNewUser extends BaseTest {
+public class HospitalRegisterNewUser extends TDDBaseTest {
 
 	
 	@Test

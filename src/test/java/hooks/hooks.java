@@ -17,23 +17,20 @@ public class hooks {
 
     public static WebDriver driver;
 
-    static {
-        try {
-            driver = openURL();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
     @Before
-    public void setUp() throws IOException {
+    public void startDriver() throws IOException {
         // Code to setup web driver
         log.info("Before Hook triggered");
         log.info("====================================================================================");
         log.info("*********************************Test Start*****************************************");
         log.info("Opening the Website!!!!");
         log.info("Webiste URL: "+ Config.getConfigProperty("URL"));
-        BaseTest.goToWebpage(driver);
+        try {
+            driver = openURL();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 
     @After
