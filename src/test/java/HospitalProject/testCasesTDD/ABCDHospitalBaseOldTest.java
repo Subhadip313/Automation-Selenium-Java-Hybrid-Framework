@@ -12,7 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 @Slf4j
-public class ABCDHospitalBaseOld {
+public class ABCDHospitalBaseOldTest {
 //http://localhost/ABCD%20Hospital/
 	public WebDriver driver;
 	

@@ -1,77 +1,6 @@
-2025-01-25 02:14:40 [main] INFO  HospitalProject.testCasesTDD.TDDBaseTest - BeforeMethod Hook triggered
-2025-01-25 02:14:42 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - The Model has opened
-2025-01-25 02:14:42 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Register Now
-2025-01-25 02:14:43 [main] INFO  com.hospital.test.pageObjects.frontend.ABCD_LandingPage - Sign in Confirmed!!! Hello! Sudip Dutta, Please check out the below video to know more about us or go to the Home page by clicking the Home button on the to right corner of the page.
-2025-01-25 02:14:44 [main] INFO  HospitalProject.testCasesTDD.TDDBaseTest - AfterMethod Hook triggered
-2025-01-25 02:17:10 [main] INFO  HospitalProject.testCasesTDD.ABCDHospitalBaseOld - Performing an action.
-2025-01-25 02:17:10 [main] ERROR HospitalProject.testCasesTDD.ABCDHospitalBaseOld - An error occurred.
-2025-01-25 02:17:11 [main] INFO  HospitalProject.testCasesTDD.TDDBaseTest - BeforeMethod Hook triggered
-2025-01-25 02:17:20 [main] INFO  HospitalProject.testCasesTDD.TDDBaseTest - AfterMethod Hook triggered
-2025-01-25 02:19:33 [main] INFO  hooks.hooks - Before Hook triggered
-2025-01-25 02:19:33 [main] INFO  hooks.hooks - ====================================================================================
-2025-01-25 02:19:33 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
-2025-01-25 02:19:33 [main] INFO  hooks.hooks - Opening the Website!!!!
-2025-01-25 02:19:33 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
-2025-01-25 02:19:35 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
-2025-01-25 02:19:36 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
-2025-01-25 02:19:36 [main] ERROR HospitalProject.testClassesBDD.hospitalLandingPage - User not Logged in Successfully
-2025-01-25 02:19:36 [main] INFO  hooks.hooks - *********************************Test End*****************************************
-2025-01-25 02:19:36 [main] INFO  hooks.hooks - Closing the WebDriver
-2025-01-25 02:20:19 [main] INFO  hooks.hooks - Before Hook triggered
-2025-01-25 02:20:19 [main] INFO  hooks.hooks - ====================================================================================
-2025-01-25 02:20:19 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
-2025-01-25 02:20:19 [main] INFO  hooks.hooks - Opening the Website!!!!
-2025-01-25 02:20:19 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
-2025-01-25 02:20:22 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
-2025-01-25 02:20:23 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
-2025-01-25 02:20:23 [main] ERROR HospitalProject.testClassesBDD.hospitalLandingPage - User not Logged in Successfully
-2025-01-25 02:20:23 [main] INFO  hooks.hooks - *********************************Test End*****************************************
-2025-01-25 02:20:23 [main] INFO  hooks.hooks - Closing the WebDriver
-2025-01-25 02:32:51 [main] INFO  hooks.hooks - Before Hook triggered
-2025-01-25 02:32:51 [main] INFO  hooks.hooks - ====================================================================================
-2025-01-25 02:32:51 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
-2025-01-25 02:32:51 [main] INFO  hooks.hooks - Opening the Website!!!!
-2025-01-25 02:32:51 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
-2025-01-25 02:32:55 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
-2025-01-25 02:32:57 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
-2025-01-25 02:32:57 [main] ERROR HospitalProject.testClassesBDD.hospitalLandingPage - User not Logged in Successfully
-2025-01-25 02:32:57 [main] INFO  hooks.hooks - *********************************Test End*****************************************
-2025-01-25 02:32:57 [main] INFO  hooks.hooks - Closing the WebDriver
-2025-01-25 02:34:26 [main] INFO  HospitalProject.testCasesTDD.TDDBaseTest - BeforeMethod Hook triggered
-2025-01-25 02:34:36 [main] INFO  HospitalProject.testCasesTDD.TDDBaseTest - AfterMethod Hook triggered
-2025-01-25 02:35:15 [main] INFO  hooks.hooks - Before Hook triggered
-2025-01-25 02:35:15 [main] INFO  hooks.hooks - ====================================================================================
-2025-01-25 02:35:15 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
-2025-01-25 02:35:15 [main] INFO  hooks.hooks - Opening the Website!!!!
-2025-01-25 02:35:15 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
-2025-01-25 02:35:17 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
-2025-01-25 02:35:19 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
-2025-01-25 02:35:19 [main] ERROR HospitalProject.testClassesBDD.hospitalLandingPage - User not Logged in Successfully
-2025-01-25 02:35:19 [main] INFO  hooks.hooks - *********************************Test End*****************************************
-2025-01-25 02:35:19 [main] INFO  hooks.hooks - Closing the WebDriver
-2025-01-25 02:58:48 [main] INFO  hooks.hooks - Before Hook triggered
-2025-01-25 02:58:48 [main] INFO  hooks.hooks - ====================================================================================
-2025-01-25 02:58:48 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
-2025-01-25 02:58:48 [main] INFO  hooks.hooks - Opening the Website!!!!
-2025-01-25 02:58:48 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
-2025-01-25 02:58:51 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
-2025-01-25 02:58:53 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
-2025-01-25 02:58:53 [main] ERROR HospitalProject.testClassesBDD.hospitalLandingPage - User not Logged in Successfully
-2025-01-25 02:58:53 [main] INFO  hooks.hooks - *********************************Test End*****************************************
-2025-01-25 02:58:53 [main] INFO  hooks.hooks - Closing the WebDriver
-2025-01-25 03:00:00 [main] INFO  hooks.hooks - Before Hook triggered
-2025-01-25 03:00:00 [main] INFO  hooks.hooks - ====================================================================================
-2025-01-25 03:00:00 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
-2025-01-25 03:00:00 [main] INFO  hooks.hooks - Opening the Website!!!!
-2025-01-25 03:00:00 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
-2025-01-25 03:00:03 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
-2025-01-25 03:00:05 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
-2025-01-25 03:00:05 [main] ERROR HospitalProject.testClassesBDD.hospitalLandingPage - User not Logged in Successfully
-2025-01-25 03:00:05 [main] INFO  hooks.hooks - *********************************Test End*****************************************
-2025-01-25 03:00:05 [main] INFO  hooks.hooks - Closing the WebDriver
-2025-01-25 03:01:01 [main] INFO  HospitalProject.testCasesTDD.TDDBaseTest - BeforeMethod Hook triggered
-2025-01-25 03:01:12 [main] INFO  HospitalProject.testCasesTDD.TDDBaseTest - AfterMethod Hook triggered
-2025-01-25 03:01:12 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+2025-01-27 21:08:06 [main] INFO  HospitalProject.testCasesTDD.ABCDHospitalBaseOldTest - Performing an action.
+2025-01-27 21:08:06 [main] ERROR HospitalProject.testCasesTDD.ABCDHospitalBaseOldTest - An error occurred.
+2025-01-27 21:08:06 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
 	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
@@ -88,15 +17,116 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
-2025-01-25 03:20:26 [main] INFO  hooks.hooks - Before Hook triggered
-2025-01-25 03:20:26 [main] INFO  hooks.hooks - ====================================================================================
-2025-01-25 03:20:26 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
-2025-01-25 03:20:26 [main] INFO  hooks.hooks - Opening the Website!!!!
-2025-01-25 03:20:26 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
-2025-01-25 03:20:29 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
-2025-01-25 03:20:31 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
-2025-01-25 03:20:32 [main] ERROR HospitalProject.testClassesBDD.hospitalLandingPage - User not Logged in Successfully
-2025-01-25 03:20:32 [main] INFO  hooks.hooks - *********************************Test End*****************************************
-2025-01-25 03:20:32 [main] INFO  hooks.hooks - Closing the WebDriver
-2025-01-25 03:21:48 [main] INFO  HospitalProject.testCasesTDD.TDDBaseTest - BeforeMethod Hook triggered
-2025-01-25 03:22:00 [main] INFO  HospitalProject.testCasesTDD.TDDBaseTest - AfterMethod Hook triggered
+2025-01-28 01:09:10 [TestNG-tests-2] INFO  HospitalProject.testCasesTDD.TDDBaseTest - BeforeMethod Hook triggered
+2025-01-28 01:09:34 [TestNG-tests-1] INFO  HospitalProject.testCasesTDD.ABCDHospitalBaseOldTest - Performing an action.
+2025-01-28 01:09:34 [TestNG-tests-1] ERROR HospitalProject.testCasesTDD.ABCDHospitalBaseOldTest - An error occurred.
+2025-01-28 01:09:37 [TestNG-tests-2] INFO  HospitalProject.testCasesTDD.TDDBaseTest - AfterMethod Hook triggered
+2025-01-28 01:09:39 [AsyncHttpClient-1-5] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-28 01:55:24 [TestNG-tests-2] INFO  HospitalProject.testCasesTDD.TDDBaseTest - BeforeMethod Hook triggered
+2025-01-28 01:55:43 [TestNG-tests-1] INFO  HospitalProject.testCasesTDD.ABCDHospitalBaseOldTest - Performing an action.
+2025-01-28 01:55:43 [TestNG-tests-1] ERROR HospitalProject.testCasesTDD.ABCDHospitalBaseOldTest - An error occurred.
+2025-01-28 01:55:44 [AsyncHttpClient-1-5] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-01-28 01:55:45 [TestNG-tests-2] INFO  HospitalProject.testCasesTDD.TDDBaseTest - AfterMethod Hook triggered
+2025-01-28 01:55:45 [AsyncHttpClient-1-7] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2025-02-22 02:19:39 [main] INFO  hooks.hooks - Before Hook triggered
+2025-02-22 02:19:39 [main] INFO  hooks.hooks - ====================================================================================
+2025-02-22 02:19:39 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
+2025-02-22 02:19:39 [main] INFO  hooks.hooks - Opening the Website!!!!
+2025-02-22 02:19:39 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-02-22 02:19:48 [main] INFO  hooks.hooks - *********************************Test End*****************************************
+2025-02-22 02:19:48 [main] INFO  hooks.hooks - Closing the WebDriver
+2025-03-24 16:59:18 [main] INFO  hooks.hooks - Before Hook triggered
+2025-03-24 16:59:18 [main] INFO  hooks.hooks - ====================================================================================
+2025-03-24 16:59:18 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
+2025-03-24 16:59:18 [main] INFO  hooks.hooks - Opening the Website!!!!
+2025-03-24 16:59:18 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-03-24 16:59:27 [main] INFO  hooks.hooks - *********************************Test End*****************************************
+2025-03-24 16:59:27 [main] INFO  hooks.hooks - Closing the WebDriver
+2025-03-24 17:04:27 [main] INFO  hooks.hooks - Before Hook triggered
+2025-03-24 17:04:27 [main] INFO  hooks.hooks - ====================================================================================
+2025-03-24 17:04:27 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
+2025-03-24 17:04:27 [main] INFO  hooks.hooks - Opening the Website!!!!
+2025-03-24 17:04:27 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-03-24 17:04:31 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
+2025-03-24 17:04:34 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
+2025-03-24 17:04:34 [main] ERROR HospitalProject.testClassesBDD.hospitalLandingPage - User not Logged in Successfully
+2025-03-24 17:04:34 [main] INFO  hooks.hooks - *********************************Test End*****************************************
+2025-03-24 17:04:34 [main] INFO  hooks.hooks - Closing the WebDriver
+2025-03-24 17:07:27 [main] INFO  hooks.hooks - Before Hook triggered
+2025-03-24 17:07:27 [main] INFO  hooks.hooks - ====================================================================================
+2025-03-24 17:07:27 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
+2025-03-24 17:07:27 [main] INFO  hooks.hooks - Opening the Website!!!!
+2025-03-24 17:07:27 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-03-24 17:07:32 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
+2025-03-24 17:07:34 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
+2025-03-24 17:07:34 [main] ERROR HospitalProject.testClassesBDD.hospitalLandingPage - User not Logged in Successfully
+2025-03-24 17:07:34 [main] INFO  hooks.hooks - *********************************Test End*****************************************
+2025-03-24 17:07:34 [main] INFO  hooks.hooks - Closing the WebDriver
+2025-03-24 17:09:41 [main] INFO  hooks.hooks - Before Hook triggered
+2025-03-24 17:09:41 [main] INFO  hooks.hooks - ====================================================================================
+2025-03-24 17:09:41 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
+2025-03-24 17:09:41 [main] INFO  hooks.hooks - Opening the Website!!!!
+2025-03-24 17:09:41 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-03-24 17:09:46 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
+2025-03-24 17:09:47 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
+2025-03-24 17:09:48 [main] INFO  HospitalProject.testClassesBDD.hospitalLandingPage - User Logged in Successfully
+2025-03-24 17:09:48 [main] INFO  hooks.hooks - *********************************Test End*****************************************
+2025-03-24 17:09:48 [main] INFO  hooks.hooks - Closing the WebDriver
+2025-03-24 17:14:02 [main] INFO  hooks.hooks - Before Hook triggered
+2025-03-24 17:14:02 [main] INFO  hooks.hooks - ====================================================================================
+2025-03-24 17:14:02 [main] INFO  hooks.hooks - *********************************Test Start*****************************************
+2025-03-24 17:14:02 [main] INFO  hooks.hooks - Opening the Website!!!!
+2025-03-24 17:14:02 [main] INFO  hooks.hooks - Webiste URL: http://localhost/ABCD%20Hospital/
+2025-03-24 17:14:06 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User is on the Login Page
+2025-03-24 17:14:07 [main] INFO  HospitalProject.StepDefinitions.loginOP - The User has entered the credentials
+2025-03-24 17:14:07 [main] INFO  HospitalProject.testClassesBDD.hospitalLandingPage - User Logged in Successfully
+2025-03-24 17:14:07 [main] INFO  hooks.hooks - *********************************Test End*****************************************
+2025-03-24 17:14:07 [main] INFO  hooks.hooks - Closing the WebDriver

@@ -1,9 +1,10 @@
+HospitalProject\testCasesTDD\ABCDHospitalBaseOldTest.class
 runner\CucumberRunner.class
 hooks\hooks.class
+HospitalProject\testCasesTDD\TDDBaseTest.class
 HospitalProject\testComponenets\BaseTest.class
-HospitalProject\testCasesTDD\ABCDHospitalBaseOld.class
 HospitalProject\testCasesTDD\HospitalRegisterNewUser.class
 HospitalProject\testCasesTDD\HospitalDoctorAvailCheck.class
 HospitalProject\testCasesTDD\SampleTestClass.class
+HospitalProject\testClassesBDD\hospitalLandingPage.class
 HospitalProject\StepDefinitions\loginOP.class
-HospitalProject\testClasses\hospitalLandingPage.class

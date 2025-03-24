@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="HospitalProjectSuite">
+<suite name="HospitalProjectSuite" parallel="tests" thread-count="2">
 
 	<listeners>
 	<listener class-name="com.e_commerce.test.utils.ListenerClass"   />
@@ -8,7 +8,7 @@
 
   <test name="ABCD_Hospital Login">
     <classes>
-      <class name="HospitalProject.testCasesTDD.ABCDHospitalBaseOld" >
+      <class name="HospitalProject.testCasesTDD.ABCDHospitalBaseOldTest" >
       <methods>
       <include name="login" />
       </methods>
