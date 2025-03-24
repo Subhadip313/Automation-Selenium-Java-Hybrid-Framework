@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="684ae706-69e4-47ca-87f6-0ae3ff91117f" name="Changes" comment="nothing 1">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_Automation_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_Automation_framework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testReports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testReports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_DDT_Automation_Framework/Automation-Selenium-Java-TDD-Framework",
+    "last_opened_file_path": "D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
@@ -83,6 +86,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2. Selenium Automation framework\Selenium_Automation_framework-main\Selenium_Automation_framework-main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\2. Selenium Automation framework\Selenium_Automation_framework-main\Selenium_Automation_framework-main\src\main\java\com\reportsConfig" />
     </key>
