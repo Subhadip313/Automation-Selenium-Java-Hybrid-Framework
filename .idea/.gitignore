@@ -1,7 +1,7 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-/target/
-/logs/
+Selenium_Automation_framework-main/target/
+Selenium_Automation_framework-main/logs/
 logs/application.log
-src/test/java/e_commerce/testReports/index.html
+Selenium_Automation_framework-main/src/test/java/e_commerce/testReports/index.html
