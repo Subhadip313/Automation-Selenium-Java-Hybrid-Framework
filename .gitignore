@@ -1,7 +1,7 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-/target/
-/logs/
+target/
+logs/
 logs/application.log
-/src/test/java/HospitalProject/testReports/index.html
+src/test/java/HospitalProject/testReports/index.html

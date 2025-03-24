@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="684ae706-69e4-47ca-87f6-0ae3ff91117f" name="Changes" comment="nothing 1">
+    <list default="true" id="684ae706-69e4-47ca-87f6-0ae3ff91117f" name="Changes" comment="nothing 2">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium_Automation_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_Automation_framework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HospitalProject/testReports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HospitalProject/testReports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" afterDir="false" />
@@ -77,6 +76,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/2. Selenium Automation framework/Selenium_Automation_framework-main/Selenium_Automation_framework-main",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
@@ -193,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742817938681</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nothing 2">
+      <option name="closed" value="true" />
+      <created>1742818989441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742818989441</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +218,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="nothing 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="nothing 1" />
+    <MESSAGE value="nothing 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="nothing 2" />
   </component>
 </project>
